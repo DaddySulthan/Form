@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<form action="proses.html" method="POST">
+  <fieldset style="background-color: cyan;">
+   <legend font="20px"><b>FORMULIF PENDAFTARAN SISWA</b></legend>
+   
+
+   <li>
+      <label for="first_name">First Name</label>
+      
+      <input id="first_name" type="text"
+      autofocus="true"
+      required
+      name="first_name" placeholder="'Sulthan'">
+    </li>
+     <li>
+       <label for="last_name">Last Name</label>
+      
+      <input id="last_name" type="text"
+      autofocus="true"
+      required
+      name="last_name" placeholder="'mercury'">
+     </li>
+
+<form action="proses.html" method="POST">
+  <fieldset style="background-color: cyan;">
+   <legend font="20px"><b>JENIS KELAMIN</b></legend>
+     
+     <input type="radio" name="jk" value="L" checked />Laki-laki
+     <input type="radio" name="jk" value="P" checked />Perempuan
+     </li>
+
+<form action="proses.html" method="POST">
+  <fieldset style="background-color: cyan;">
+   <legend font="20px"><b>DATA PRIBADI</b></legend>
+
+    <li>
+      <label for="first_name">Alamat Rumah</label>
+      
+      <input id="first_name" type="text"
+      autofocus="true"
+      required
+      name="first_name" placeholder="'alamat rumah mu'">
+    </li>
+    <li>
+      <label for="first_name">Nomer Telefon</label>
+      
+      <input id="first_name" type="text"
+      autofocus="true"
+      required
+      name="first_name" placeholder="'nomer telefonmu'">
+    </li>
+
+    <label>Alasan kamu mendaftar disini</label>
+    <div>
+        <textarea name="Alasan_kamu_mendaftar_disini" rows="4" cols="3"></textarea>
+    </div>
+    </fieldset>
+    <div>
+        <input type="submit" value="Simpan" name="proses" />
+    </div>
+</head>    
