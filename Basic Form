@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pemesanan Sepatu</title>
+</head>
+<body bgcolor="maroon" align="center">
+    <font face="Arial Neue" color="White" size="20"> PEMESANAN SEPATU </font> 
+    
+
+    <form action="#" method="POST">
+        <div class="container">
+            <h1><align="left" color="white" size="18">PESAN SEKARANG</td>
+            <p>untuk memakai layanan pemesanan silahkan mengisi form dibawah ini</p>
+            <hr>
+            <label for="nama"><b>Nama</b></label>
+            <input type="text" name="nama" id="nama" placeholder="Masukan Nama Anda" required>
+            <br><br>
+            <label for="email"><b>Email</b></label>
+            <input type="email" name="email" id="email" placeholder="Masukan Email anda" required>
+            <br><br>
+            <label for="transportasi"><b>Jasa Pengiriman</b></label>
+            <div id="transportasi">
+                <input type="checkbox" name="darat" id="darat" value="darat">
+                <label for="darat">GO JEK</label>
+                <input type="checkbox" name="udara" id="udara" value="udara">
+                <label for="udara">GRAB</label>
+                <input type="checkbox" name="laut" id="laut" value="laut">
+                <label for="laut">JNT</label>
+            </div>
+            <br>
+            <label for="layanan"><b>Pilih Tipe Pelayanan</b></label><br>
+            <select name="layanan" id="layanan">
+                <option value="reguler">Reguler</option>
+                <option value="vip">VIP</option>
+            </select>
+            <br><br>
+            <label for="alamat"><b>Alamat</b></label><br>
+            <textarea name="alamat" id="alamat" cols="100%" rows="10" required></textarea><br><br>
+
+    <input type="submit">
+        </div>
+    </form>
+</body>
+</html>
